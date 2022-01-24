@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn_primary {
+  @apply flex items-center space-x-1 px-3 py-2 rounded-md shadow shadow-blue-200 bg-gradient-to-tr from-blue-400 to-blue-500 text-white hover:shadow-lg transition-shadow
+}
+
+.card {
+  @apply flex flex-col rounded-md border border-gray-200 shadow-sm bg-white hover:border-gray-300 transition-colors w-full lg:max-w-[370px]
+}
+
+.btn_danger {
+  @apply w-full text-center py-3 text-sm text-red-500 hover:bg-red-50/25 transition-colors
+}
+
+.btn_save {
+  @apply inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500
+}
+
+.btn_cancel {
+  @apply inline-flex justify-center px-4 py-2 text-sm font-medium text-gray-900 bg-gray-100 border border-transparent rounded-md hover:bg-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-500
+}
+
+.input {
+  @apply transition duration-300 focus:outline-none px-2 py-3 border border-indigo-100 rounded-lg shadow-inner focus:border-blue-500 dark:text-white placeholder-gray-400 bg-indigo-50 text-sm focus-visible:ring-1 focus-visible:ring-blue-500 focus-visible:ring-opacity-75 w-full
+}
