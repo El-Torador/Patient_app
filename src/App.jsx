@@ -17,9 +17,9 @@ function App() {
         <div className='flex items-center justify-between overflow-y-auto py-5 px-2 border-b border-gray-200'>
           <div className='flex items-center space-x-2'>
             <h2 className='text-xl font-bold text-gray-600'>
-              Liste des patients
+              List of patients
             </h2> 
-            <span className='w-5 h-5 flex items-center justify-center rounded-full shadow bg-gray-100 text-gray-500 text-sm'>3</span>
+            <span className='w-5 h-5 flex items-center justify-center rounded-full shadow bg-gray-100 text-gray-500 text-sm'>{patients.length}</span>
           </div>
             <AddPatient savePatient={setPatients} />
         </div>

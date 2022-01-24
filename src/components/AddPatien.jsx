@@ -27,7 +27,7 @@ function AddPatient({ savePatient }) {
   return <>
         <button className='btn_primary' onClick={toggleModal}>
             <PlusIcon /> 
-            <span className='hidden md:inline'>Nouveau patient</span>
+            <span className='hidden md:inline'>New patient</span>
           </button>
 
       <Transition appear show={isOpen} as={Fragment}>
